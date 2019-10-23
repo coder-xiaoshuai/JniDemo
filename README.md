@@ -6,7 +6,7 @@
 第二步：编译java源文件得到class文件，然后通过javah命令生成jni的头文件  
 ![](https://github.com/coder-xiaoshuai/JniDemo/blob/master/app/image/image1.png)  
 ![Image](https://github.com/coder-xiaoshuai/JniDemo/blob/master/app/image/image2.png)  
-第三步：实现jni方法  
+第三步：实现jni方法  参见jni目录下的文件
 第四步：cd到jni目录，执行ndk-build命令编译生成so库  
 ![Image](https://github.com/coder-xiaoshuai/JniDemo/blob/master/app/image/image3.png)  
 第五步：在app/src/main中创建jniLibs目录，并将生成的so库复制到该目录中  
