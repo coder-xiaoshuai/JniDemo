@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_get_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调用getNativeString方法" />
+
+    <EditText
+        android:id="@+id/et_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="1234567890"
+        android:hint="请输入整数m"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="1234567890"
+        android:hint="请输入整数n"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_get_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调用jni方法计算m+n的和" />
+
+</LinearLayout>
